@@ -118,6 +118,8 @@ const titleH = listH.item(0).innerHTML;
 
 //2 les09
 const listBtn = document.getElementsByClassName('handler_btn');
+let listBtnEl0 = listBtn[0];
+let listBtnEl1 = listBtn[1];
 //3
 const btnPlus = document.querySelector('.screen-btn');
 //4
@@ -129,13 +131,20 @@ const inputType = document.querySelector('.rollback input[type=range]');
 const spanType = document.querySelector('.rollback .range-value');
 //7
 const totalInput = document.getElementsByClassName('total-input');
-for (let key of totalInput) {
-    console.log(key)
-}
+let totalInputEl0 = totalInput[0];
+let totalInputEl1 = totalInput[1];
+let totalInputEl2 = totalInput[2];
+let totalInputEl3 = totalInput[3];
+let totalInputEl4 = totalInput[4];
 //8
 let listScreen = document.querySelectorAll('.screen');
 
 console.log(listScreen);
+console.log(totalInputEl1);
+console.log(totalInputEl2);
+console.log(totalInputEl3);
+console.log(listBtnEl0);
+console.log(listBtnEl1);
 console.log(inputType);
 console.log(spanType);
 console.log(titleH);
